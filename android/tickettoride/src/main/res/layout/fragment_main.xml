@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="#272727"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.puj.tickettoride.MainActivity$PlaceholderFragment">
+
+    <TextView
+			android:id="@+id/mainScore"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:gravity="center_vertical|right"
+			android:text="0 Points"
+			android:textSize="@dimen/text_x_large"
+			android:textColor="#ffffff"/>
+
+	<TextView
+			android:id="@+id/mainTrainCount"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_below="@id/mainScore"
+			android:layout_marginTop="16dp"
+			android:gravity="center_vertical|right"
+			android:text="0 Trains"
+			android:textSize="@dimen/text_normal"
+			android:textColor="#ffffff"/>
+
+	<TextView
+			android:id="@+id/mainTrainCarCount"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_marginTop="16dp"
+			android:layout_below="@id/mainTrainCount"
+			android:gravity="center_vertical|right"
+			android:text="0 Train cars (45 left)"
+			android:textSize="@dimen/text_normal"
+			android:textColor="#ffffff"/>
+
+	<LinearLayout
+			android:id="@+id/gridRow1"
+			android:layout_marginTop="@dimen/text_normal"
+			android:layout_width="match_parent"
+			android:layout_height="@dimen/main_cell_height"
+			android:layout_below="@id/mainTrainCarCount"
+			android:orientation="horizontal"
+			android:weightSum="4">
+		<TextView
+				android:id="@+id/mainCell4"
+				android:text="4"
+				style="@style/mainCell"
+				/>
+		<TextView
+				android:id="@+id/mainCell5"
+				android:text="5"
+				style="@style/mainCell"/>
+		<TextView
+				android:id="@+id/mainCell6"
+				android:text="6"
+				style="@style/mainCell"/>
+		<TextView
+				android:id="@+id/mainCellUndo"
+				android:text="Undo"
+				android:background="#eaa612"
+				android:textSize="@dimen/text_normal"
+				style="@style/mainCell"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+			android:id="@+id/gridRow"
+			android:layout_width="match_parent"
+			android:layout_height="@dimen/main_cell_height"
+			android:orientation="horizontal"
+			android:layout_below="@id/gridRow1"
+			android:weightSum="4">
+		<TextView
+				android:id="@+id/mainCell1"
+				android:text="1"
+				style="@style/mainCell"
+				/>
+		<TextView
+				android:id="@+id/mainCell2"
+				android:text="2"
+				style="@style/mainCell"/>
+		<TextView
+				android:id="@+id/mainCell3"
+				android:text="3"
+				style="@style/mainCell"/>
+		<TextView
+				android:id="@+id/mainCellClear"
+				android:text="Clear"
+				android:background="#eaa612"
+				android:textSize="@dimen/text_normal"
+				style="@style/mainCell"/>
+	</LinearLayout>
+
+</RelativeLayout>
