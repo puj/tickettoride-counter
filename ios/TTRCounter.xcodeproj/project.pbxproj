@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD3AE5D11898D5050049AD6E /* TicketToRidePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3AE5D01898D5050049AD6E /* TicketToRidePlayer.m */; };
+		CD3AE5D61898D6290049AD6E /* SingleplayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3AE5D51898D6290049AD6E /* SingleplayerViewController.m */; };
+		CD41117A189864E5000D957D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD411179189864E5000D957D /* Foundation.framework */; };
+		CD41117C189864E5000D957D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD41117B189864E5000D957D /* CoreGraphics.framework */; };
+		CD41117E189864E5000D957D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD41117D189864E5000D957D /* UIKit.framework */; };
+		CD411184189864E5000D957D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD411182189864E5000D957D /* InfoPlist.strings */; };
+		CD411186189864E5000D957D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD411185189864E5000D957D /* main.m */; };
+		CD41118A189864E6000D957D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD411189189864E6000D957D /* AppDelegate.m */; };
+		CD41118D189864E6000D957D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD41118B189864E6000D957D /* Main_iPhone.storyboard */; };
+		CD411190189864E6000D957D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD41118E189864E6000D957D /* Main_iPad.storyboard */; };
+		CD411193189864E6000D957D /* MultiplayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD411192189864E6000D957D /* MultiplayerViewController.m */; };
+		CD411195189864E6000D957D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD411194189864E6000D957D /* Images.xcassets */; };
+		CD41119C189864E6000D957D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD41119B189864E6000D957D /* XCTest.framework */; };
+		CD41119D189864E6000D957D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD411179189864E5000D957D /* Foundation.framework */; };
+		CD41119E189864E6000D957D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD41117D189864E5000D957D /* UIKit.framework */; };
+		CD4111A6189864E6000D957D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD4111A4189864E6000D957D /* InfoPlist.strings */; };
+		CD4111A8189864E6000D957D /* TTRCounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4111A7189864E6000D957D /* TTRCounterTests.m */; };
+		CD4111B31898723B000D957D /* NSArray+TicketToRideRules.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4111B21898723B000D957D /* NSArray+TicketToRideRules.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD41119F189864E6000D957D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD41116E189864E4000D957D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD411175189864E5000D957D;
+			remoteInfo = TTRCounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD3AE5CF1898D5050049AD6E /* TicketToRidePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketToRidePlayer.h; sourceTree = "<group>"; };
+		CD3AE5D01898D5050049AD6E /* TicketToRidePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketToRidePlayer.m; sourceTree = "<group>"; };
+		CD3AE5D41898D6290049AD6E /* SingleplayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleplayerViewController.h; sourceTree = "<group>"; };
+		CD3AE5D51898D6290049AD6E /* SingleplayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleplayerViewController.m; sourceTree = "<group>"; };
+		CD411176189864E5000D957D /* TTRCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTRCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD411179189864E5000D957D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD41117B189864E5000D957D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD41117D189864E5000D957D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD411181189864E5000D957D /* TTRCounter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TTRCounter-Info.plist"; sourceTree = "<group>"; };
+		CD411183189864E5000D957D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD411185189864E5000D957D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD411187189864E5000D957D /* TTRCounter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TTRCounter-Prefix.pch"; sourceTree = "<group>"; };
+		CD411188189864E6000D957D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD411189189864E6000D957D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD41118C189864E6000D957D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CD41118F189864E6000D957D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CD411191189864E6000D957D /* MultiplayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiplayerViewController.h; sourceTree = "<group>"; };
+		CD411192189864E6000D957D /* MultiplayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiplayerViewController.m; sourceTree = "<group>"; };
+		CD411194189864E6000D957D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD41119A189864E6000D957D /* TTRCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTRCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD41119B189864E6000D957D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CD4111A3189864E6000D957D /* TTRCounterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TTRCounterTests-Info.plist"; sourceTree = "<group>"; };
+		CD4111A5189864E6000D957D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD4111A7189864E6000D957D /* TTRCounterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTRCounterTests.m; sourceTree = "<group>"; };
+		CD4111B11898723A000D957D /* NSArray+TicketToRideRules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+TicketToRideRules.h"; sourceTree = "<group>"; };
+		CD4111B21898723B000D957D /* NSArray+TicketToRideRules.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+TicketToRideRules.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD411173189864E5000D957D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD41117C189864E5000D957D /* CoreGraphics.framework in Frameworks */,
+				CD41117E189864E5000D957D /* UIKit.framework in Frameworks */,
+				CD41117A189864E5000D957D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD411197189864E6000D957D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD41119C189864E6000D957D /* XCTest.framework in Frameworks */,
+				CD41119E189864E6000D957D /* UIKit.framework in Frameworks */,
+				CD41119D189864E6000D957D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD3AE5D21898D57D0049AD6E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CD4111B11898723A000D957D /* NSArray+TicketToRideRules.h */,
+				CD4111B21898723B000D957D /* NSArray+TicketToRideRules.m */,
+				CD3AE5CF1898D5050049AD6E /* TicketToRidePlayer.h */,
+				CD3AE5D01898D5050049AD6E /* TicketToRidePlayer.m */,
+				CD411191189864E6000D957D /* MultiplayerViewController.h */,
+				CD411192189864E6000D957D /* MultiplayerViewController.m */,
+				CD3AE5D41898D6290049AD6E /* SingleplayerViewController.h */,
+				CD3AE5D51898D6290049AD6E /* SingleplayerViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		CD3AE5D31898D58C0049AD6E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CD41118B189864E6000D957D /* Main_iPhone.storyboard */,
+				CD41118E189864E6000D957D /* Main_iPad.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		CD41116D189864E4000D957D = {
+			isa = PBXGroup;
+			children = (
+				CD41117F189864E5000D957D /* TTRCounter */,
+				CD4111A1189864E6000D957D /* TTRCounterTests */,
+				CD411178189864E5000D957D /* Frameworks */,
+				CD411177189864E5000D957D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD411177189864E5000D957D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD411176189864E5000D957D /* TTRCounter.app */,
+				CD41119A189864E6000D957D /* TTRCounterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD411178189864E5000D957D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD411179189864E5000D957D /* Foundation.framework */,
+				CD41117B189864E5000D957D /* CoreGraphics.framework */,
+				CD41117D189864E5000D957D /* UIKit.framework */,
+				CD41119B189864E6000D957D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD41117F189864E5000D957D /* TTRCounter */ = {
+			isa = PBXGroup;
+			children = (
+				CD3AE5D21898D57D0049AD6E /* Classes */,
+				CD3AE5D31898D58C0049AD6E /* Storyboards */,
+				CD411180189864E5000D957D /* Supporting Files */,
+			);
+			path = TTRCounter;
+			sourceTree = "<group>";
+		};
+		CD411180189864E5000D957D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD411194189864E6000D957D /* Images.xcassets */,
+				CD411188189864E6000D957D /* AppDelegate.h */,
+				CD411189189864E6000D957D /* AppDelegate.m */,
+				CD411181189864E5000D957D /* TTRCounter-Info.plist */,
+				CD411182189864E5000D957D /* InfoPlist.strings */,
+				CD411185189864E5000D957D /* main.m */,
+				CD411187189864E5000D957D /* TTRCounter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD4111A1189864E6000D957D /* TTRCounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD4111A7189864E6000D957D /* TTRCounterTests.m */,
+				CD4111A2189864E6000D957D /* Supporting Files */,
+			);
+			path = TTRCounterTests;
+			sourceTree = "<group>";
+		};
+		CD4111A2189864E6000D957D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD4111A3189864E6000D957D /* TTRCounterTests-Info.plist */,
+				CD4111A4189864E6000D957D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD411175189864E5000D957D /* TTRCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4111AB189864E6000D957D /* Build configuration list for PBXNativeTarget "TTRCounter" */;
+			buildPhases = (
+				CD411172189864E5000D957D /* Sources */,
+				CD411173189864E5000D957D /* Frameworks */,
+				CD411174189864E5000D957D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTRCounter;
+			productName = TTRCounter;
+			productReference = CD411176189864E5000D957D /* TTRCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD411199189864E6000D957D /* TTRCounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4111AE189864E6000D957D /* Build configuration list for PBXNativeTarget "TTRCounterTests" */;
+			buildPhases = (
+				CD411196189864E6000D957D /* Sources */,
+				CD411197189864E6000D957D /* Frameworks */,
+				CD411198189864E6000D957D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD4111A0189864E6000D957D /* PBXTargetDependency */,
+			);
+			name = TTRCounterTests;
+			productName = TTRCounterTests;
+			productReference = CD41119A189864E6000D957D /* TTRCounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD41116E189864E4000D957D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Mattias Jähnke";
+				TargetAttributes = {
+					CD411199189864E6000D957D = {
+						TestTargetID = CD411175189864E5000D957D;
+					};
+				};
+			};
+			buildConfigurationList = CD411171189864E4000D957D /* Build configuration list for PBXProject "TTRCounter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD41116D189864E4000D957D;
+			productRefGroup = CD411177189864E5000D957D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD411175189864E5000D957D /* TTRCounter */,
+				CD411199189864E6000D957D /* TTRCounterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD411174189864E5000D957D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD411190189864E6000D957D /* Main_iPad.storyboard in Resources */,
+				CD411195189864E6000D957D /* Images.xcassets in Resources */,
+				CD41118D189864E6000D957D /* Main_iPhone.storyboard in Resources */,
+				CD411184189864E5000D957D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD411198189864E6000D957D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4111A6189864E6000D957D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD411172189864E5000D957D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD411193189864E6000D957D /* MultiplayerViewController.m in Sources */,
+				CD3AE5D61898D6290049AD6E /* SingleplayerViewController.m in Sources */,
+				CD41118A189864E6000D957D /* AppDelegate.m in Sources */,
+				CD3AE5D11898D5050049AD6E /* TicketToRidePlayer.m in Sources */,
+				CD411186189864E5000D957D /* main.m in Sources */,
+				CD4111B31898723B000D957D /* NSArray+TicketToRideRules.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD411196189864E6000D957D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4111A8189864E6000D957D /* TTRCounterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD4111A0189864E6000D957D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD411175189864E5000D957D /* TTRCounter */;
+			targetProxy = CD41119F189864E6000D957D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD411182189864E5000D957D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD411183189864E5000D957D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD41118B189864E6000D957D /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD41118C189864E6000D957D /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CD41118E189864E6000D957D /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD41118F189864E6000D957D /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CD4111A4189864E6000D957D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4111A5189864E6000D957D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD4111A9189864E6000D957D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mattias Jahnke (HXJYXMN99Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD4111AA189864E6000D957D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD4111AC189864E6000D957D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTRCounter/TTRCounter-Prefix.pch";
+				INFOPLIST_FILE = "TTRCounter/TTRCounter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD4111AD189864E6000D957D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTRCounter/TTRCounter-Prefix.pch";
+				INFOPLIST_FILE = "TTRCounter/TTRCounter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CD4111AF189864E6000D957D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TTRCounter.app/TTRCounter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTRCounter/TTRCounter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TTRCounterTests/TTRCounterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CD4111B0189864E6000D957D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TTRCounter.app/TTRCounter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTRCounter/TTRCounter-Prefix.pch";
+				INFOPLIST_FILE = "TTRCounterTests/TTRCounterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD411171189864E4000D957D /* Build configuration list for PBXProject "TTRCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4111A9189864E6000D957D /* Debug */,
+				CD4111AA189864E6000D957D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD4111AB189864E6000D957D /* Build configuration list for PBXNativeTarget "TTRCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4111AC189864E6000D957D /* Debug */,
+				CD4111AD189864E6000D957D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD4111AE189864E6000D957D /* Build configuration list for PBXNativeTarget "TTRCounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4111AF189864E6000D957D /* Debug */,
+				CD4111B0189864E6000D957D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD41116E189864E4000D957D /* Project object */;
+}
